@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <template>
   <div class="title_container">
     <span class="title_border"></span>
@@ -9,17 +6,19 @@
 </template>
 
 <style lang="scss">
+$shadow-color: rgb(187, 185, 185);
+$title-border-color: rgb(14, 167, 170);
+
 .title_poke{
-  text-shadow: 0px 5px 0.15em rgb(187, 185, 185);
+  text-shadow: 0px 5px 0.15em $shadow-color;
 }
 .title_border{
   height: 40px;
   width: 6px;
-  background-color:  rgb(14, 167, 170);
+  background-color: $title-border-color;
   border-radius: 99px;
   margin-right: 20px;
-  box-shadow: 0px 5px 0.3em rgb(158, 157, 157)
-
+  box-shadow: 0px 5px 0.3em $shadow-color;
 }
 .title_container{
   display: flex;

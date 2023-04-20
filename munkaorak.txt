@@ -2,3 +2,4 @@
 0,5 óra gyors css
 2 óra scss, refaktor
 1,5 ora bugfix
+1 óra refaktor

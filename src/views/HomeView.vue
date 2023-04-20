@@ -1,11 +1,11 @@
 <script setup>
-import Title from '../components/Title.vue'
+import PokemonTitle from '../components/PokemonTitle.vue'
 import PokemonList from '../components/PokemonList.vue'
 </script>
 
 <template>
   <main>
-    <Title />
+    <PokemonTitle />
     <PokemonList />
   </main>
 </template>
