@@ -1,5 +1,6 @@
 <script setup>
 import { RouterView } from 'vue-router'
+
 </script>
 
 <template>
@@ -39,6 +40,7 @@ $sidebar-width: 250px;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {

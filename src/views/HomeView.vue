@@ -1,9 +1,11 @@
 <script setup>
-import HelloWorld from '../components/HelloWorld.vue'
+import Title from '../components/Title.vue'
+import PokemonList from '../components/PokemonList.vue'
 </script>
 
 <template>
   <main>
-    <HelloWorld />
+    <Title />
+    <PokemonList />
   </main>
 </template>
